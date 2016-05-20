@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    tools:context=".EditorActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#bb000000"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_action_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/back_button"
+                android:text="Home"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/logo_white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/share_button"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_action_share" />
+        </RelativeLayout>
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:minHeight="?attr/actionBarSize">
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight=".5"
+        android:text="Tap on image to re-crop"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/edit_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:layout_weight="6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.0"
+        android:background="#000000">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/filter_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-1dp"
+        android:background="#000000"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:elevation="0dp"
+            android:text="PAINTYFY"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#dddddd"
+            android:text="SPLASH"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#dddddd"
+            android:text="ECLECTIC"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:background="#dddddd"
+            android:text="COCOON"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Picazzy</string>
+    <string-array name="effect_names_paintify">
+        <item>Spray Fresco</item>
+        <item>Soft Canvas</item>
+        <item>Crayon Art</item>
+        <item>Color Spill</item>
+        <item>Art Glint</item>
+        <item>Neon Flares</item>
+        <item>Poster Dusk</item>
+        <item>Water Color</item>
+        <item>Copper Sketch</item>
+        <item>Triptych</item>
+        <item>Crazy Beams</item>
+    </string-array>
+
+    <string-array name="effect_names_splash">
+        <item>Dramatic Web</item>
+        <item>Paint Splashes</item>
+        <item>Enigma</item>
+        <item>Canvas Flare</item>
+        <item>Water Splash</item>
+        <item>Art Lens</item>
+        <item>Kolam</item>
+        <item>Temptation Streaks</item>
+        <item>Color Fusions</item>
+        <item>Plume Bloom</item>
+        <item>Misty Feathers</item>
+        <item>Color Glitters</item>
+    </string-array>
+
+    <string-array name="effect_names_electic">
+        <item>Vintage Dust</item>
+        <item>Retro Dusk</item>
+        <item>Dark Fantasy</item>
+        <item>Diamond Hues</item>
+        <item>Duchrome Sketch</item>
+        <item>Vintage Dreams</item>
+        <item>Sweet Dawns</item>
+        <item>Aqua</item>
+        <item>Pencil Sketch</item>
+        <item>Frosty Ochre</item>
+        <item>Misty Rays</item>
+    </string-array>
+
+    <string-array name="effect_name_cocoon">
+        <item>PhotoBox</item>
+        <item>Love Mystified</item>
+        <item>Sheer Tear</item>
+        <item>Paper Folds</item>
+        <item>Tropical Maze</item>
+        <item>Love Dreams</item>
+        <item>Trinity</item>
+        <item>Purple Jay</item>
+        <item>Love Puzzle</item>
+        <item>Petal Peep</item>
+        <item>Holed Wall</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.7" />
+<<<<<<< HEAD:Blogmint/.idea/gradle.xml
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+=======
+>>>>>>> 07cd4ad8df9bc1d6cced73156053c0b8b04c72a3:crop/.idea/gradle.xml
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
